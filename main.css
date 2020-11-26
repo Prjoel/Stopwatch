@@ -1,0 +1,9 @@
+body {
+  background-color: aquamarine;
+  text-align: center;
+  font-size: 5rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+button {
+  font-size: 3rem;
+}
