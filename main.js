@@ -41,7 +41,7 @@ function Stopwatch(props) {
       <h1>
         {formatTime(minutes)}:{formatTime(seconds)}
       </h1>
-      <button onClick={startTimer}>start</button>
+      <button onClick={startTimer}>starrt</button>
       <button onClick={stopTimer} >stop</button>
       <button onClick={restartTimer}>restart</button>
     </div>
