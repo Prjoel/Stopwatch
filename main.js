@@ -1,4 +1,4 @@
-function Stopwatch(props) {
+function Stopwatch() {
   const [seconds, setSeconds] = React.useState(0);
   const [minutes, setMinutes] = React.useState(0);
   const [intervalId, setIntervalId] = React.useState(null);
@@ -37,13 +37,15 @@ function Stopwatch(props) {
     } else return time;
   }
   return (
-    <div>
-      <h1>
-        {formatTime(minutes)}:{formatTime(seconds)}
-      </h1>
+    <div id="app">
+    <h1>
+      {formatTime(minutes)}:{formatTime(seconds)}
+    </h1>
+    <div id="buttons">
       <button onClick={startTimer}>start</button>
       <button onClick={stopTimer} >stop</button>
       <button onClick={restartTimer}>restart</button>
+    </div>
     </div>
   );
 }

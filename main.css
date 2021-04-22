@@ -1,9 +1,36 @@
-body {
-  background-color: #000;
-  text-align: center;
-  font-size: 5rem;
+* {
+  box-sizing: border-box;
+  margin: 0;
   font-family: 'Josefin Sans', sans-serif;
+  color: aliceblue;
 }
+
+body {
+  background-color: #1c0f8d;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#root {
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app h1 {
+  font-size: 15rem;
+}
+
 button {
   font-size: 3rem;
+  width: 10rem;
+  height: 10rem;
+  margin-right: 3rem;
+  color: #fff;
+  border-radius: 50%;
+  border-color: #fff;
+  background-color: #1c0f8d;
 }
